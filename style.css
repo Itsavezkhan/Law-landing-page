@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,600;1,100&family=Khula&family=Mulish:wght@300;600;700;800&family=Nanum+Gothic&family=Nunito:wght@400;500;600;700;800&family=PT+Sans+Narrow&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-family: nunito;
+}
+
+body{
+    background-color: rgb(29, 27, 27);
+}
+
+header{
+    font-family: nunito;
+    padding: 1rem 7%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(54, 27, 27);
+   
+}
+header button{
+    padding: .5rem 2rem;
+    font-weight: 800;
+    border-radius: 8px;
+
+}
+header button:hover{
+    background-color: rgb(29, 27, 27);;
+    color: white;
+    cursor: pointer;
+    
+
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.navbar li{
+    display: flex;
+    color: #fff;
+    padding: 0 2rem;
+}
+/* .home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    padding: 1rem 7%;
+    color: white;
+    font-family: nunito;
+
+}
+.home h1{
+    font-size: 40px;
+}
+.home p{
+    font-size: 20px;
+}
+.img{
+    text-align: center;
+
+}
+.img img{
+    width: 68rem;
+    overflow: hidden;
+
+} */
+
+/* flexbox */
+.home{
+    display: flex;
+    width: 100%;
+    padding: 1rem 7%;
+    align-items: center;
+    justify-content: space-between;
+}
+.home .H{
+    width: 50%;
+    
+}
+.home .H h1{
+    font-size: 3rem;
+    color: white;
+}
+.home .P{
+    width: 50%;
+}
+.home .P p{
+    font-size: 2rem;
+    color: white;
+}
+.img{
+    text-align: center;
+}
+.img img{
+    width: 60rem;
+    height: 23rem;
+
+} 
+
+
+
